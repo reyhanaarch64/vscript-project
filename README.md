@@ -963,9 +963,9 @@ Roadmap bersifat terbuka dan dapat berubah.
 
 ## License
 
-VScript adalah project open source. Tambahkan file `LICENSE` pada repository sesuai lisensi yang dipilih untuk project ini.
+VScript dirilis dengan lisensi [MIT](LICENSE).
 
-Sampai lisensi repository ditetapkan secara eksplisit, jangan mengasumsikan bahwa seluruh source dapat digunakan ulang dengan ketentuan tertentu hanya berdasarkan label "open source".
+VScript tidak membundel FFmpeg maupun FreeType. Keduanya dimuat dari environment host saat runtime, jadi tetap mengikuti lisensi masing-masing (FFmpeg bisa LGPL atau GPL tergantung opsi build yang dipakai di mesin kamu, misalnya jika memakai libx264).
 
 ---
 
